@@ -66,3 +66,94 @@ Export forensic evidence in:
 ```bash
 git clone https://github.com/acarranza-labs/E-mailicioso.git
 cd E-mailicioso
+
+Install dependencies
+pip install -r requirements.txt
+
+Run application
+python3 emailicioso.py
+
+🖥️ Usage Guide
+1. Load a .eml file
+
+Go to File → Open EML, or drag & drop a file.
+
+2. Navigate through analysis sections
+
+Headers: inspect routing and metadata
+
+Body: preview HTML/text
+
+URLs: extracted links with intelligence results
+
+Reputation: Talos / URLVoid / X-Force checks
+
+Screenshots: automatic captures of URLs
+
+3. Export investigation report
+
+Use Export → Generate Report to output:
+
+HTML
+
+Markdown
+
+JSON
+
+Perfect for incident response documentation.
+
+📂 Project Structure
+E-mailicioso/
+├── emailicioso.py           # Main UI
+├── core/
+│   ├── parser.py            # Header + body parsing logic
+│   ├── url_extractor.py     # URL extraction engine
+│   ├── osint.py             # Talos, URLVoid & X-Force API handlers
+│       └── screenshot.py    # Headless screenshot system
+│   └── report.py            # Evidence generation
+├── ui/
+│   ├── main_window.glade    # GTK layout
+│   └── icons/
+├── reports/
+├── requirements.txt
+└── README.md
+
+🔍 Example: Analyze a Simple Event in Python
+from core.parser import parse_eml
+from core.url_extractor import extract_urls
+from core.osint import check_url_reputation
+
+# Load EML
+email_data = parse_eml("sample.eml")
+
+# Extract URLs
+urls = extract_urls(email_data.body_html)
+
+# Check reputation
+for url in urls:
+    rep = check_url_reputation(url)
+    print(url, rep)
+
+🗺️ Roadmap
+
+ Add VirusTotal integration
+
+ Add hybrid ML-based phishing classifier
+
+ Batch processing for multiple EML files
+
+ Dark mode for GTK UI
+
+ Build Windows/macOS/Linux executables
+
+ Add plugin system for custom OSINT modules
+
+🤝 Contributing
+
+Pull requests and feature proposals are welcome.
+You can also open Issues for bugs or suggestions.
+
+📄 License
+
+MIT License
+© 2025 Antonio Carranza Barroso – acarranza-labs
