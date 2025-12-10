@@ -73,7 +73,7 @@ pip install -r requirements.txt
 Run application
 python3 emailicioso.py
 
-🖥️ Usage Guide
+### 🖥️ Usage Guide
 1. Load a .eml file
 
 Go to File → Open EML, or drag & drop a file.
@@ -94,15 +94,10 @@ Screenshots: automatic captures of URLs
 
 Use Export → Generate Report to output:
 
-HTML
-
-Markdown
-
-JSON
 
 Perfect for incident response documentation.
 
-📂 Project Structure
+### 📂 Project Structure
 E-mailicioso/
 ├── emailicioso.py           # Main UI
 ├── core/
@@ -134,7 +129,7 @@ for url in urls:
     rep = check_url_reputation(url)
     print(url, rep)
 
-🗺️ Roadmap
+### 🗺️ Roadmap
 
  Add VirusTotal integration
 
@@ -148,12 +143,8 @@ for url in urls:
 
  Add plugin system for custom OSINT modules
 
-🤝 Contributing
+### 🤝 Contributing
 
 Pull requests and feature proposals are welcome.
 You can also open Issues for bugs or suggestions.
 
-📄 License
-
-MIT License
-© 2025 Antonio Carranza Barroso – acarranza-labs
