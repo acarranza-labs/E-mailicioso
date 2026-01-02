@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+evidence/
+*.eml
+repro.eml
+test_sample.eml
+debug_eml.py
+reproduce_issue.py
+verify_parser.py
+
+# Cache
+*.db
+.emailicioso/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
