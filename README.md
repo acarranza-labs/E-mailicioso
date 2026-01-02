@@ -98,9 +98,13 @@ E-mailicioso/
 
 ---
 
-## 📸 Screenshots
+## 📸 URL Screenshots Feature
 
-*Coming soon*
+The "Screenshots" tab allows you to capture visual evidence of suspicious URLs:
+- Individual capture per URL
+- Saves to `evidence/<email_name>/screenshots/`
+- Uses Playwright + Chromium for accurate rendering
+- Open captured images directly from the app
 
 ---
 
