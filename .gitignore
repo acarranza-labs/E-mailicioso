@@ -22,6 +22,8 @@ Thumbs.db
 # Project specific
 evidence/
 *.eml
+*.msg
+!samples/*.eml
 repro.eml
 test_sample.eml
 debug_eml.py
@@ -31,6 +33,8 @@ verify_parser.py
 # Cache
 *.db
 .emailicioso/
+.pytest_cache/
+.ruff_cache/
 
 # Distribution
 dist/

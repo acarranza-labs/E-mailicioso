@@ -1,18 +1,7 @@
-import sys
-from PySide6.QtWidgets import QApplication
-from ui.main_window import MainWindow
-from ui.styles import apply_dark_theme
+"""Launcher kept for backwards compatibility: `python main.py [file.eml]` opens the GUI,
+`python main.py analyze file.eml` runs headless. Same as `python -m emailicioso`."""
 
-def main() -> int:
-    app = QApplication(sys.argv)
-    
-    # Apply dark/modern theme
-    apply_dark_theme(app)
-    
-    win = MainWindow()
-    win.show()
-    
-    return app.exec()
+from emailicioso.cli import main
 
 if __name__ == "__main__":
     raise SystemExit(main())

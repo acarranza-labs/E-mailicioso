@@ -1,0 +1,140 @@
+Received: from AM9PR04MB8000.eurprd04.prod.outlook.com (2603:10a6:20b:3e1::12)
+ by DB9PR04MB9001.eurprd04.prod.outlook.com with HTTPS; Tue, 7 Oct 2025
+ 09:14:31 +0000
+Received: from AM6EUR05FT032.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:2c2:cafe::5b) by AM9PR04MB8000.outlook.office365.com
+ (2603:10a6:20b:3e1::12) with Microsoft SMTP Server (version=TLS1_2) id
+ 15.20.8000.21 via Frontend Transport; Tue, 7 Oct 2025 09:14:30 +0000
+Received: from mail.bulk-send-relay.xyz (203.0.113.45) by
+ AM6EUR05FT032.mail.protection.outlook.com (10.167.240.130) with Microsoft
+ SMTP Server id 15.20.8000.21; Tue, 7 Oct 2025 09:14:29 +0000
+Received: from [192.168.1.20] (unknown [198.51.100.23]) by
+ mail.bulk-send-relay.xyz (Postfix) with ESMTPSA id 4C2A11F3B; Tue, 7 Oct 2025
+ 09:14:21 +0000 (UTC)
+Authentication-Results: spf=softfail (sender IP is 203.0.113.45)
+ smtp.mailfrom=bulk-send-relay.xyz; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=quarantine
+ header.from=rnicrosoft-alerts.com;compauth=fail reason=000
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ bulk-send-relay.xyz discourages use of 203.0.113.45 as permitted sender)
+X-MS-Exchange-Organization-Network-Message-Id:
+ 7f3c2a10-5d4e-4b8a-9c21-08ddf1a2b3c4
+X-Forefront-Antispam-Report: =?utf-8?b?Q0lQOjIwMy4wLjExMy40NTtDVFJZOk5MO0xB?=
+ =?utf-8?b?Tkc6ZW47U0NMOjU7U1JWOjtJUFY6TkxJO1NGVjpTUE07SDptYWlsLmJ1bGstc2Vu?=
+ =?utf-8?q?d-relay=2Exyz=3BPTR=3Amail=2Ebulk-send-relay=2Exyz=3BCAT=3APHSH?=
+ =?utf-8?b?O1NGUzooMTMyMzAwNDApKDQ2MzYwMDkpO0RJUjpJTkI7?=
+X-Microsoft-Antispam: BCL:0;ARA:13230040;
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-Sample: Synthetic phishing sample for E-mailicioso. All names, domains and
+ addresses are fictitious.
+Return-Path: <bounce-8812@bulk-send-relay.xyz>
+From: "Microsoft 365 Security" <security-noreply@rnicrosoft-alerts.com>
+Reply-To: m365.helpdesk.verify@gmail.com
+To: "Garcia, Julia" <j.garcia@contoso.com>
+Subject: RE: Action required: unusual sign-in activity on your account
+Date: Tue, 07 Oct 2025 11:14:18 +0200
+Message-ID: <20251007091418.4C2A11F3B@mail.bulk-send-relay.xyz>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8146351865093076691=="
+
+--===============8146351865093076691==
+Content-Type: multipart/alternative;
+ boundary="===============5269965124095289404=="
+
+--===============5269965124095289404==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Microsoft 365
+
+We detected unusual sign-in activity on your account j.garcia@contoso.com.
+
+Sign-in details:
+  Country/region: Russia
+  IP address: 198.51.100.77
+  Date: 07/10/2025 08:51 (UTC)
+
+If this wasn't you, verify your account immediately to avoid suspension.
+Your mailbox will be locked within 24 hours if no action is taken.
+
+Review recent activity: https://bit.ly/3xM365-review
+
+Thanks,
+The Microsoft account team
+
+--===============5269965124095289404==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body style=3D"font-family:Segoe UI,Arial,sans-serif;color:#222">
+<div style=3D"max-width:560px;margin:auto;border:1px solid #e5e5e5;padding:24=
+px">
+<p style=3D"font-size:20px;color:#0067b8;margin:0 0 16px">Microsoft 365</p>
+<p style=3D"font-size:26px;margin:0 0 12px">Unusual sign-in activity</p>
+<p>We detected something unusual about a recent sign-in to the Microsoft acco=
+unt <b>j.garcia@contoso.com</b>.</p>
+<table style=3D"font-size:14px"><tr><td>Country/region:</td><td>Russia</td></=
+tr>
+<tr><td>IP address:</td><td>198.51.100.77</td></tr><tr><td>Date:</td><td>07/1=
+0/2025 08:51 (UTC)</td></tr></table>
+<p>If this wasn't you, please <b>verify your account immediately</b>. Your ma=
+ilbox will be locked within 24 hours.</p>
+<p><a href=3D"https://eur03.safelinks.protection.outlook.com/?url=3Dhttps%3A%=
+2F%2Flogin-rnicrosoftonline.web.app%2Fauth%3Fuser%3Dj.garcia%40contoso.com&da=
+ta=3D05%7C02%7Cj.garcia%40contoso.com%7C1a2b3c&sdata=3Dabc123%3D&reserved=3D0=
+" style=3D"background:#0067b8;color:#fff;padding:10px 18px;text-decoration:no=
+ne">https://account.microsoft.com/security</a></p>
+<p>Or scan the attached code with your phone to secure your account.</p>
+<p style=3D"font-size:12px;color:#666">Review recent activity: <a href=3D"htt=
+ps://bit.ly/3xM365-review">Recent activity</a> |
+<a href=3D"https://privacy.microsoft.com/privacystatement">Privacy statement<=
+/a></p>
+<span style=3D"display:none;font-size:0">This newsletter is a regular project=
+ update from your team about the quarterly offsite agenda and the shared cale=
+ndar. Nothing to action here.</span>
+<img src=3D"http://198.51.100.23/o.gif?id=3Dj.garcia" width=3D"1" height=3D"1=
+">
+</div></body></html>
+
+--===============5269965124095289404==--
+
+--===============8146351865093076691==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Security_Report_07-10.pdf.html"
+MIME-Version: 1.0
+
+PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHRpdGxlPk1pY3Jvc29mdCAzNjUgLSBTZWN1cml0
+eSByZXBvcnQ8L3RpdGxlPjwvaGVhZD48Ym9keT4KPGRpdiBpZD0ibSI+PC9kaXY+Cjxmb3JtIGFj
+dGlvbj0iaHR0cHM6Ly9jb2xsZWN0LW0zNjUtcG9ydGFsLnRvcC9zdWJtaXQucGhwIiBtZXRob2Q9
+InBvc3QiPgo8aW5wdXQgdHlwZT0iZW1haWwiIG5hbWU9InUiIHZhbHVlPSJqLmdhcmNpYUBjb250
+b3NvLmNvbSI+PGlucHV0IHR5cGU9InBhc3N3b3JkIiBuYW1lPSJwIj48YnV0dG9uPlNpZ24gaW48
+L2J1dHRvbj48L2Zvcm0+CjxzY3JpcHQ+dmFyIGQgPSBhdG9iKCJQR2d4UGxObFkzVnlhWFI1SUhK
+bGNHOXlkRHd2YURFKyIpOyBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibSIpLmlubmVySFRNTCA9
+IGQ7CmZldGNoKCJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90MDAwMDAwOkZBS0Uvc2VuZE1l
+c3NhZ2UiKTs8L3NjcmlwdD48L2JvZHk+PC9odG1sPg==
+
+--===============8146351865093076691==
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="MFA_setup.png"
+MIME-Version: 1.0
+
+iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaAQAAAAAefbjOAAADDUlEQVR4nO2cS46jMBBAXw1IWRop
+B+ijODeYI436SH0DOAoHaMksRzKqWbgMpGfV0z0QkfIiwQlPKeRS/VyOKJ8ew4/PM+CQQw455JBD
+Dp0TEhstwCybz27MAlO94XaIeA7tD0VVVU0ANCo3ZlFV1TpttE4PEc+h/aDW3qcO4hsIIaFMVwXm
+VgexGwSavLt4Dh0PxVEEwm9h6BqVX6tl+O5fcughofbjB8OLIoSkAoIO3XurTEeJ59DuUNWIoGAL
+P7cKcwshIXApNmJrKR78mRz6BmgQEZEOiONF5TZdlDi2EBPIjbmkGkeJ59DeNmJjAIauAZhFIcPQ
+IWZBjhDPod0hSlYZEwCNah8s54SgqpqaTVpaRv/gz+TQ1yF97UD7kIGprVfMtUIFaF+mR4jn0O5e
+Q2K6ZomjVP8xCTBdtFQhhluTJaaufvvgz+TQVyDMEyQgagZzGLkEldrflSvda5wf2miE9lDq2asy
+lACjqErIVu12jTgzVDWijLys/hJthswmvHSNOD20yTWKh+iBdfVNBTCNcK9xfqhqxGoeAO1DNRkl
+rGAbUbhGnBpa4ojVCmR76YvDgDWEcK9xfshsRKlGlautZTDjkZZA0zXi7NCdRqyGIpnrgBpbEJN7
+jWeANl6jqEVfzEOjRQXWFHS92TXizNCSa9jqV+eQzUbE1ZMEjyOeAVo6ZmZRwrsQdRaFpnbMCCjT
+RRl+HiCeQ7tD271PK0np1kZsss+Q3Ws8ERQy+vpie5+UOGI0A2K6MbUfof3Ec2g3aFnlRq2DbrpS
+WrMJGWXqBBAgvLcS+33Fc2h36H5fo+ahfXUdUKsQdc/LvcbJIeuPsFmTlUkgjgJDl5RyxGu6lvq2
+90ecH1r2NdaihFWx120OS0G9ZvkU0H2uUT3Epm1GlxM8nms8L2Rl67FFX6WttaqxRW6PIJ5D/xP6
+60wXU4dGnZee/FmwBsylRf/Bn8mhr0Afz3Tp0DVZ4luHWgqaANRPAj8LVPc+y7BdLeuPKC0yaxeN
+xxHPAIn/M5lDDjnkkEMOOfSP0B8FZIVTr8h/LAAAAABJRU5ErkJggg==
+
+--===============8146351865093076691==--
